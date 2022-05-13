@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUpActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        >
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sign Up"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:textAlignment="center"
+
+            />
+        <EditText
+            android:id="@+id/fullname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="fullname"
+
+            />
+        <EditText
+            android:id="@+id/emaildk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Username"
+
+            />
+
+        <EditText
+            android:id="@+id/passworddk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="password"
+            android:inputType="textPassword"
+
+            />
+        <EditText
+            android:id="@+id/address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Dia chi"
+
+            />
+
+        <EditText
+            android:id="@+id/sdt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="sdt"
+            android:inputType="number"
+
+            />
+        <Button
+            android:id="@+id/signUp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sign Up"
+            />
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"
+            android:text="Quay lại trang đăng nhập"
+            />
+    </LinearLayout>
+</RelativeLayout>
